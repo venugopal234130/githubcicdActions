@@ -11,6 +11,7 @@ public class MyController {
 	@GetMapping("/v1")
 	public String getGreeting()
 	{
+		System.out.println("Executed sucess");
 		return "Welcome";
 	}
 
